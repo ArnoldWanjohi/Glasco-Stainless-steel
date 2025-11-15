@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ✅ If you want nesting, rely on PostCSS plugin (postcss-nesting or postcss-preset-env).
+   No need to import "tailwindcss/nesting" here — that’s what caused the error. */
+
+/* Example global styles */
+html, body {
+  @apply h-full bg-white text-gray-900;
+}
+
+a {
+  @apply text-blue-600 hover:text-blue-800;
+}
+
+/* Example of nesting with postcss-nesting plugin */
+.card {
+  @apply p-4 rounded-lg shadow-md bg-gray-100;
+
+  &:hover {
+    @apply bg-gray-200;
+  }
+
+  .title {
+    @apply font-bold text-lg;
+  }
+
+  .description {
+    @apply text-sm text-gray-600;
+  }
+}
