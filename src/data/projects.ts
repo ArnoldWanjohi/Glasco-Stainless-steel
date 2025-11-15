@@ -37,7 +37,7 @@ export const projects = [
   {
     id: 6,
     title: "Aluminium Glass Partitions",
-    image: "/images/aluminium-glass-partitions.webp",
+    image: "/images/aluminium-glass-partition.jpg",
     category: "Commercial",
     description: "Modern glass partition solutions for offices"
   }

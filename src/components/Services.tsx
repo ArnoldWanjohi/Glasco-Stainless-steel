@@ -9,32 +9,32 @@ const services = [
   {
     title: 'Stainless Steel Railings',
     description: 'Elegant and durable railings for balconies, staircases, and terraces, custom-designed to enhance your space.',
-    image: '/image/stainless steel railing deck.webp',
+    image: '/images/stainless-steel-railing-deck.webp',
   },
   {
     title: 'Glass Balconies',
     description: 'Sleek frameless glass balconies that provide unobstructed views while ensuring safety and security.',
-    image: '/image/Glass Balconies.webp',
+    image: '/images/glass-balconies.webp',
   },
   {
     title: 'Aluminum Windows & Doors',
     description: 'Energy-efficient and low-maintenance aluminum windows and doors in modern designs.',
-    image: '/image/Aluminium doors and windows.webp',
+    image: '/images/aluminium-doors-and-windows.webp',
   },
   {
     title: 'Staircase Solutions',
     description: 'Custom-designed staircases that combine functionality with aesthetic appeal.',
-    image: '/image/Staircase Solutions.webp',
+    image: '/images/staircase-solutions.webp',
   },
   {
     title: 'Glass Partitions',
     description: 'Create open, light-filled spaces with our frameless glass partitions and room dividers.',
-    image: '/image/aluminiumglasspartition1.jpg',
+    image: '/images/aluminium-glass-partition.jpg',
   },
   {
     title: 'Custom Metal Works',
     description: 'Bespoke metal fabrication for both residential and commercial applications.',
-    image: '/image/Custom metal works.webp',
+    image: '/images/custom-metal-works.webp',
   },
 ];
 
