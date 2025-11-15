@@ -16,7 +16,7 @@ export const projects = [
   {
     id: 3,
     title: "Stainless Steel Railings",
-    image: "/image/Staircase Solutions.webp",
+    image: "/image/stainless steel railings.webp",  // Updated path
     category: "Commercial",
     description: "Professional railing solutions for all spaces"
   },
