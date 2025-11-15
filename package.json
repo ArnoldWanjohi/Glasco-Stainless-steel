@@ -4,15 +4,14 @@
   "private": true,
   "engines": {
     "node": ">=18.17.0"
-  },
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "postinstall": "next telemetry disable",
-    "netlify-build": "npm install --legacy-peer-deps && next build"
-  },
+  },"scripts": {
+  "dev": "next dev",
+  "build": "next build && next export",
+  "start": "next start",
+  "lint": "next lint",
+  "postinstall": "next telemetry disable",
+  "netlify-build": "npm install --legacy-peer-deps && next build && next export"
+},
   "dependencies": {
     "@types/react-slick": "^0.23.13",
     "framer-motion": "^12.23.24",

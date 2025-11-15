@@ -1,11 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    formats: ['image/webp'],
-    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
-    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
+    // Disable image optimization during build
+    unoptimized: true,
+    // Add your domain for production
+    domains: ['glascostainlesssteel.netlify.app'],
   },
-  reactStrictMode: true,
+  // Enable static export
+  output: 'export',
+  // Add base path if your site is not at the root
+  // basePath: '/your-base-path',
 }
 
 module.exports = nextConfig
