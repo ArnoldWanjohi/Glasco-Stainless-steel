@@ -3,10 +3,9 @@ const nextConfig = {
   output: 'export',
   images: {
     unoptimized: true,
-    domains: ['glascostainlesssteel.netlify.app'],
   },
-  // Add basePath if your site is not at the root
-  // basePath: '/your-base-path',
+  // Add basePath if your site is hosted in a subdirectory
+  // basePath: '/your-repo-name',
 }
 
 module.exports = nextConfig

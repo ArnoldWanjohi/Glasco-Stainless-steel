@@ -1,17 +1,9 @@
 [build]
   command = "npm run build"
   publish = ".next"
-  functions = ".netlify/functions"
-
-[build.environment]
-  NODE_VERSION = "18.17.0"
-  NPM_FLAGS = "--legacy-peer-deps"
-  NEXT_TELEMETRY_DISABLED = "1"
+  functions = "functions"
 
 [[redirects]]
-  from = "/*"
-  to = "/index.html"
+  from = "/services/*"
+  to = "/services/index.html"
   status = 200
-
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
