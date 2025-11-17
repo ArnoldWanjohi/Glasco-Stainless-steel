@@ -68,25 +68,27 @@ const Hero = () => {
               whileTap={{ scale: 0.95 }}
               className="inline-block"
             >
-              <Button 
-                size="lg" 
-                className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 text-lg font-medium shadow-lg hover:shadow-xl transition-all duration-300"
+              <a 
+                href="https://wa.me/254722149502?text=Hello%20Glasco%20Stainless%2C%20I'd%20like%20to%20get%20a%20quote%20for%20your%20services." 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 text-lg font-medium shadow-lg hover:shadow-xl transition-all duration-300 rounded-md"
               >
-                Get a Free Quote
-              </Button>
+                <FaWhatsapp className="mr-2" />
+                Get a Quote
+              </a>
             </motion.div>
             <motion.div
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="inline-block"
             >
-              <Button
-                variant="outline"
-                size="lg"
-                className="text-white border-2 border-white hover:bg-white/10 px-8 py-4 text-lg font-medium backdrop-blur-sm"
+              <a 
+                href="/projects"
+                className="inline-flex items-center justify-center text-white border-2 border-white hover:bg-white/10 px-8 py-4 text-lg font-medium backdrop-blur-sm rounded-md transition-colors"
               >
                 View Our Work
-              </Button>
+              </a>
             </motion.div>
           </div>
         </motion.div>
